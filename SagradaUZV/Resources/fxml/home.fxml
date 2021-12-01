@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoIngSW.View.Gui.HomeController">
+   <children>
+      <Button fx:id="submitButton" defaultButton="true" layoutX="500.0" layoutY="348.0" mnemonicParsing="false" onAction="#submit" prefHeight="46.0" prefWidth="126.0" text="Gioca">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <TextField fx:id="name" layoutX="301.0" layoutY="196.0" prefHeight="46.0" prefWidth="199.0" promptText="Username">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="password" layoutX="301.0" layoutY="264.0" prefHeight="46.0" prefWidth="199.0" promptText="Password">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Button fx:id="createPattern" layoutX="175.0" layoutY="348.0" mnemonicParsing="false" onAction="#submit" prefHeight="46.0" prefWidth="126.0" text="Crea pattern">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

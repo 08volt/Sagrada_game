@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoIngSW.View.Gui.ConnectionController">
+   <children>
+      <TextField fx:id="address" layoutX="201.0" layoutY="90.0" prefHeight="46.0" prefWidth="199.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="22.0" layoutY="173.0" prefHeight="55.0" prefWidth="161.0" text="Tipo di connessione">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="201.0" layoutY="177.0" mnemonicParsing="false" onAction="#rmiConn" prefHeight="46.0" prefWidth="126.0" selected="true" text="RMI">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="connection" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="314.0" layoutY="177.0" mnemonicParsing="false" onAction="#socketConn" prefHeight="46.0" prefWidth="126.0" text="Socket" toggleGroup="$connection">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="submitButton" defaultButton="true" layoutX="426.0" layoutY="279.0" mnemonicParsing="false" onAction="#submit" prefHeight="46.0" prefWidth="126.0" text="Conferma">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="22.0" layoutY="86.0" prefHeight="55.0" prefWidth="161.0" text="Indirizzo del server">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

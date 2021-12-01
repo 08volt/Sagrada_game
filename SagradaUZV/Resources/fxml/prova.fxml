@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoIngSW.View.Gui.GamePlayController">
+   <children>
+      <GridPane fx:id="roundTrack" alignment="TOP_CENTER" layoutX="23.0" layoutY="34.0" prefHeight="40.0" prefWidth="360.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="draftPool" alignment="TOP_CENTER" layoutX="418.0" layoutY="478.0" prefHeight="40.0" prefWidth="360.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="8" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Pane prefHeight="40.0" prefWidth="40.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+         </children>
+      </GridPane>
+      <Label layoutX="561.0" layoutY="543.0" text="Num Tok." />
+      <Label fx:id="token1" layoutX="23.0" layoutY="400.0" prefHeight="17.0" prefWidth="46.0" text="tok1" />
+      <Label fx:id="token2" layoutX="154.0" layoutY="400.0" prefHeight="17.0" prefWidth="46.0" text="tok2" />
+      <Label fx:id="token3" layoutX="285.0" layoutY="400.0" prefHeight="17.0" prefWidth="46.0" text="tok3" />
+      <TextArea fx:id="textBox" layoutX="577.0" layoutY="86.0" prefHeight="73.0" prefWidth="200.0" />
+      <Label fx:id="tokens" layoutX="625.0" layoutY="538.0" prefHeight="27.0" prefWidth="46.0" text="0" />
+      <Label fx:id="nRound" layoutX="418.0" layoutY="86.0" prefHeight="27.0" prefWidth="110.0" text="Round" />
+      <Label fx:id="nTurn" layoutX="418.0" layoutY="110.0" prefHeight="27.0" prefWidth="110.0" text="Turno" />
+      <Label fx:id="username4" layoutX="285.0" layoutY="525.0" prefHeight="40.0" prefWidth="105.0" />
+      <Label fx:id="username3" layoutX="151.0" layoutY="525.0" prefHeight="40.0" prefWidth="105.0" />
+      <Label fx:id="username2" layoutX="23.0" layoutY="525.0" prefHeight="40.0" prefWidth="105.0" />
+      <Label fx:id="curPlayer" layoutX="418.0" layoutY="134.0" prefHeight="27.0" prefWidth="157.0" text="Gioca" />
+      <Button fx:id="privateCard" layoutX="417.0" layoutY="537.0" mnemonicParsing="false" onAction="#showPublic" prefHeight="20.0" prefWidth="120.0" text="Carta privata" />
+      <MenuButton fx:id="roundMenu" alignment="CENTER" contentDisplay="TOP" layoutX="389.0" layoutY="34.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="79.0" text="Round">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#showRound1" text="1" />
+          <MenuItem mnemonicParsing="false" onAction="#showRound2" text="2" />
+            <MenuItem mnemonicParsing="false" onAction="#showRound3" text="3" />
+            <MenuItem mnemonicParsing="false" onAction="#showRound4" text="4" />
+            <MenuItem mnemonicParsing="false" onAction="#showRound5" text="5" />
+            <MenuItem mnemonicParsing="false" onAction="#showRound6" text="6" />
+            <MenuItem mnemonicParsing="false" onAction="#showRound7" text="7" />
+            <MenuItem mnemonicParsing="false" onAction="#showRound8" text="8" />
+            <MenuItem mnemonicParsing="false" onAction="#showRound9" text="9" />
+            <MenuItem mnemonicParsing="false" onAction="#showRound10" text="10" />
+        </items>
+      </MenuButton>
+      <ImageView fx:id="public1" fitHeight="150.0" fitWidth="100.0" layoutX="154.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="public2" fitHeight="150.0" fitWidth="100.0" layoutX="23.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="public3" fitHeight="150.0" fitWidth="100.0" layoutX="285.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="undoButton" layoutX="709.0" layoutY="35.0" mnemonicParsing="false" onAction="#undoMoves" prefHeight="40.0" prefWidth="67.0" text="Annulla" />
+      <Button fx:id="useTool" layoutX="587.0" layoutY="35.0" mnemonicParsing="false" onAction="#useTool" prefHeight="40.0" prefWidth="57.0" text="Carta " />
+      <Button fx:id="changeTurn" layoutX="649.0" layoutY="35.0" mnemonicParsing="false" onAction="#changeTurn" prefHeight="40.0" prefWidth="55.0" text="Passa" />
+      <Button fx:id="placeDice" layoutX="473.0" layoutY="35.0" mnemonicParsing="false" onAction="#placeDice" prefHeight="40.0" prefWidth="109.0" text="Piazza dado" />
+      <Pane fx:id="windowFrame" layoutX="418.0" layoutY="177.0" prefHeight="288.0" prefWidth="360.0" />
+      <Pane fx:id="player3" layoutX="154.0" layoutY="435.0" prefHeight="80.0" prefWidth="100.0" visible="false" />
+      <Pane fx:id="player2" layoutX="23.0" layoutY="438.0" prefHeight="80.0" prefWidth="100.0" visible="false" />
+      <Pane fx:id="player4" layoutX="285.0" layoutY="435.0" prefHeight="80.0" prefWidth="100.0" visible="false" />
+      <GridPane fx:id="toolCard" layoutX="23.0" layoutY="250.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="393.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="158.0" minWidth="10.0" prefWidth="131.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="182.0" minWidth="10.0" prefWidth="131.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="131.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="tool1" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <ImageView fx:id="tool2" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <ImageView fx:id="tool3" fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+         </children>
+      </GridPane>
+   </children>
+</Pane>

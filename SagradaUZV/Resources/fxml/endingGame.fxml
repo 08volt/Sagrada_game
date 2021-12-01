@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoIngSW.View.Gui.EndGameController">
+   <children>
+      <Label fx:id="winner" layoutX="74.0" layoutY="23.0" prefHeight="41.0" prefWidth="265.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="username1" layoutX="74.0" layoutY="290.0" prefHeight="21.0" prefWidth="250.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="username2" layoutX="438.0" layoutY="290.0" prefHeight="21.0" prefWidth="250.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="username4" layoutX="438.0" layoutY="552.0" prefHeight="21.0" prefWidth="250.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="username3" layoutX="74.0" layoutY="552.0" prefHeight="21.0" prefWidth="250.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Pane fx:id="player1" layoutX="74.0" layoutY="88.0" prefHeight="200.0" prefWidth="250.0" />
+      <Pane fx:id="player2" layoutX="438.0" layoutY="88.0" prefHeight="200.0" prefWidth="250.0" />
+      <Pane fx:id="player3" layoutX="74.0" layoutY="351.0" prefHeight="200.0" prefWidth="250.0" />
+      <Pane fx:id="player4" layoutX="438.0" layoutY="351.0" prefHeight="200.0" prefWidth="250.0" />
+   </children>
+</Pane>

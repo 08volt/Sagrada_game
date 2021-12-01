@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progettoIngSW.View.Gui.PatternController">
+   <children>
+      <Label layoutX="84.0" layoutY="11.0" prefHeight="36.0" prefWidth="202.0" text="Scegli il tuo pattern">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="difficult1" layoutX="84.0" layoutY="286.0" prefHeight="27.0" prefWidth="105.0" text="Difficoltà: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="difficult3" layoutX="84.0" layoutY="564.0" prefHeight="27.0" prefWidth="105.0" text="Difficoltà: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="difficult4" layoutX="455.0" layoutY="564.0" prefHeight="27.0" prefWidth="119.0" text="Difficoltà: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="difficult2" layoutX="455.0" layoutY="285.0" prefHeight="27.0" prefWidth="96.0" text="Difficoltà: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="550.0" layoutY="11.0" prefHeight="36.0" prefWidth="175.0" text="La tua carta privata:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Pane fx:id="privateCard" layoutX="736.0" layoutY="11.0" prefHeight="40.0" prefWidth="40.0" />
+      <Label fx:id="name3" alignment="CENTER" layoutX="84.0" layoutY="336.0" prefHeight="27.0" prefWidth="250.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="name4" alignment="CENTER" layoutX="453.0" layoutY="335.0" prefHeight="27.0" prefWidth="250.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="name2" alignment="CENTER" layoutX="454.0" layoutY="58.0" prefHeight="27.0" prefWidth="250.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="name1" alignment="CENTER" layoutX="84.0" layoutY="58.0" prefHeight="27.0" prefWidth="250.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Pane fx:id="pattern1" layoutX="84.0" layoutY="85.0" onMouseClicked="#button1Clicked" prefHeight="200.0" prefWidth="250.0" />
+      <Pane fx:id="pattern2" layoutX="454.0" layoutY="85.0" onMouseClicked="#button2Clicked" prefHeight="200.0" prefWidth="250.0" />
+      <Pane fx:id="pattern3" layoutX="84.0" layoutY="363.0" onMouseClicked="#button3Clicked" prefHeight="200.0" prefWidth="250.0" />
+      <Pane fx:id="pattern4" layoutX="454.0" layoutY="363.0" onMouseClicked="#button4Clicked" prefHeight="200.0" prefWidth="250.0" />
+   </children>
+</Pane>
